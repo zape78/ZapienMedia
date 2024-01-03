@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapien Media</title>
+    <link rel="icon" type="image/x-icon" href="/images/Favicon Transparent.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <header>   
+        <nav>
+            <ul>
+                <li><a href="index.html" class="logo"><image src="/images/Favicon Transparent.ico" width="25"></a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<body>
+    <main>
+
+    <section id="services" class="services">
+        <div class="services-content">
+            <h2>Our Services</h2>
+            <ul>
+                <li><a href="#webdev">Web Development</a></li>
+                <li><a href="#graphicdes">Graphic Design</a></li>
+                <li><a href="#vidpro">Video Production</a></li>
+                <li><a href="#SMM">Social Media Marketing</a></li>
+            </ul>
+        </div>
+    </section>
+        <section class="hero">
+            <h1>Coming Soon</h1>
+            <form>
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Zapien Media LLC. All rights reserved.</p>
+    </footer>
+    <!-- JavaScript code -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const header = document.querySelector("header");
+
+            window.addEventListener("scroll", function () {
+                if (window.scrollY > 100) { // Adjust the scroll position where the header changes
+                    header.classList.add("transparent-header");
+                } else {
+                    header.classList.remove("transparent-header");
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapien Media</title>
+    <link rel="icon" type="image/x-icon" href="/images/Favicon Transparent.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <header>   
+        <nav>
+            <ul>
+                <li><a href="index.html" class="logo"><image src="/images/Favicon Transparent.ico" width="25"></a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>About Zapien Media LLC</h1>
+
+                <p>Welcome to Zapien Media LLC, where we transform imagination into reality, one story at a time.</p>
+                
+                <h3>Our Story:</h3>
+                <p>Zapien Media LLC was founded on a simple yet powerful belief: that storytelling has the potential to inspire, connect, and shape the world around us. With a team of passionate creators, visionaries, and innovators, we embarked on a journey to bring your stories to life in the most captivating and meaningful ways.</p>
+                
+                <h3>What We Do:</h3>
+                <p>At Zapien Media LLC, we specialize in crafting compelling narratives through various mediums, including photography, videography, and written content. Our diverse skill set enables us to collaborate with clients from all walks of life, from businesses and brands seeking to share their message with the world to individuals with a unique story to tell.</p>
+                
+                <h3>Why Choose Us:</h3>
+                
+                <p><b>1. Creativity Unleashed:</b> Our team thrives on creativity, pushing the boundaries of storytelling to create content that engages and resonates with your audience.</p>
+                
+                <p><b>2. Tailored Solutions:</b> We understand that every project is unique. That's why we offer personalized solutions to ensure your story is told in a way that suits your vision and goals.</p>
+                
+                <p><b>3. Passion-Driven:</b> We are storytellers at heart, and our passion for what we do shines through in every project we undertake. Your story becomes our mission.</p>
+                
+                <p><b>4. Quality Assurance:</b> We are committed to delivering top-notch quality in every aspect of our work, from concept development to final production.</p>
+                
+                <p><b>5. Client-Centric:</b> Your satisfaction is our priority. We value collaboration and open communication to ensure your expectations are not just met but exceeded.</p>
+                
+                <p>Join us on this storytelling adventure, and let's bring your dreams and ideas to life. Whether you're looking to promote your brand, capture special moments, or convey a powerful message, Zapien Media LLC is here to help you tell your story like never before.</p>
+                
+                <p>Contact us today to start your journey with Zapien Media LLC, where the art of storytelling meets innovation. Together, we'll create stories that inspire, connect, and endure.</p>
+            <form>
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email">
+                <input type="submit" value="Submit">
+              </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Zapien Media</p>
+    </footer>
+    <!-- JavaScript code -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const header = document.querySelector("header");
+
+            window.addEventListener("scroll", function () {
+                if (window.scrollY > 100) { // Adjust the scroll position where the header changes
+                    header.classList.add("transparent-header");
+                } else {
+                    header.classList.remove("transparent-header");
+                }
+            });
+        });
+    </script>
+</body>
+</html>

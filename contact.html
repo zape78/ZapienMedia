@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapien Media</title>
+    <link rel="icon" type="image/x-icon" href="/images/Favicon Transparent.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <header>   
+        <nav>
+            <ul>
+                <li><a href="index.html" class="logo"><image src="/images/Favicon Transparent.ico" width="25"></a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <main>
+            <section id="contact" class="contact">
+                <section class="contact-content">
+                    <div>
+                        <h2>Contacting Zapien Media</h2>
+                        <p>If you have any questions or inquiries, feel free to reach out to us:</p>
+                    </div>
+
+                    <div class="contact-info">
+                        <h3>Our Contact Information</h3>
+                        <ul>
+                            <li><strong>Email:</strong> info@zapienmedia.com</li>
+                            <li><strong>Phone:</strong> +1 (888) 275-0155</li>
+                            <li><strong>Address:</strong> 8605 Santa Monica Blvd # 253395 <br />
+                                West Hollywood, CA 90069</li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </main>
+    <footer>
+        <p>&copy; 2024 Zapien Media LLC. All rights reserved.</p>
+    </footer>
+
+<!-- JavaScript code -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const header = document.querySelector("header");
+
+        window.addEventListener("scroll", function () {
+            if (window.scrollY > 100) { // Adjust the scroll position where the header changes
+                header.classList.add("transparent-header");
+            } else {
+                header.classList.remove("transparent-header");
+            }
+        });
+    });
+</script>
+</body>
+</html>

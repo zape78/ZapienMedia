@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapien Media</title>
+    <link rel="icon" type="image/x-icon" href="/images/Favicon Transparent.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <header>   
+        <nav>
+            <ul>
+                <li><a href="index.html" class="logo"><image src="/images/Favicon Transparent.ico" width="25"></a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Zapien Media</h1>
+            <p>Your source for innovative media solutions</p>
+            <a href="#contact" class="cta-button">Contact Us</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>We are a team of creative professionals dedicated to delivering outstanding media services.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="services-content">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Graphic Design</li>
+                <li>Video Production</li>
+                <li>Social Media Marketing</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, feel free to reach out to us:</p>
+            <a href="mailto:info@zapienmedia.com">info@zapienmedia.com</a>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, feel free to reach out to us:</p>
+            <a href="mailto:info@zapienmedia.com">info@zapienmedia.com</a>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, feel free to reach out to us:</p>
+            <a href="mailto:info@zapienmedia.com">info@zapienmedia.com</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Zapien Media LLC. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript code -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const header = document.querySelector("header");
+            let isHeaderTransparent = true;
+
+            window.addEventListener("scroll", function () {
+                if (window.scrollY > 100) { // Adjust the scroll position where the header changes
+                    if (isHeaderTransparent) {
+                        header.classList.add("transparent-header");
+                        isHeaderTransparent = false;
+                    }
+                } else {
+                    if (!isHeaderTransparent) {
+                        header.classList.remove("transparent-header");
+                        isHeaderTransparent = true;
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
