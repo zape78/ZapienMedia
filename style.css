@@ -117,9 +117,9 @@ header {
   padding: 15px 20px;
 }
 
-.media-icons p{
-    font-size: 20px;
-    margin: 20px;
+.media-icons p {
+  font-size: 20px;
+  margin: 20px;
 }
 
 .media-icons a {
@@ -264,6 +264,10 @@ label {
   }
 
   .media-icons p {
+    display: none;
+  }
+
+  .media-icons img {
     display: none;
   }
 }
