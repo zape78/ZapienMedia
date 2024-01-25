@@ -119,6 +119,7 @@ header {
 
 .media-icons p{
     font-size: 20px;
+    margin: 20px;
 }
 
 .media-icons a {
@@ -130,12 +131,16 @@ header {
 }
 
 .media-icons a:not(:last-child) {
-  margin-right: 60px;
+  margin-right: 20px;
 }
 
 .media-icons a:hover {
-  color: #fff;
+  color: #646060;
   transform: scale(1.6);
+}
+
+.media-icons img {
+  margin: 20px;
 }
 
 label {
@@ -256,5 +261,9 @@ label {
 
   .content .info p {
     font-size: 14px;
+  }
+
+  .media-icons p {
+    display: none;
   }
 }
