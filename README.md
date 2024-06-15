@@ -16,7 +16,7 @@ This repository serves as a central hub for our open-source projects, code sampl
 
 - Description: Our business website serves as the digital face of Zapien Media LLC. It's the go-to place for anyone looking to learn more about our company, services, portfolio, and contact information. The website is designed to showcase our creative work, tell our story, and provide a seamless experience for visitors.
   
-- Repository: [Not Active Yet 6/15/24]
+- Repository: [https://github.com/zape78/ZapienMedia.git]
 - Website: www.zapienmedia.com
 
 ### Project 2: The Metrics Explorer
@@ -37,8 +37,7 @@ Goals and Objectives:
    3. Interviews and Features: Profiles of data analytics experts and influencers, along with interviews and feature articles.
    4. User Engagement: Interactive content such as quizzes, polls, and surveys to engage the audience.
    
-Repository: The codebase for "The Metrics Explorer" blog website is hosted in the following GitHub repository: Link to GitHub Repository
-
+Repository: The codebase for "The Metrics Explorer" blog website is hosted in the following GitHub repository: [Repository Not Yet Active 6/15/2024]
 Website: Link to "The Metrics Explorer" Blog
 
 ## Getting Started
