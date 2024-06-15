@@ -16,7 +16,7 @@ This repository serves as a central hub for our open-source projects, code sampl
 
 - Description: Our business website serves as the digital face of Zapien Media LLC. It's the go-to place for anyone looking to learn more about our company, services, portfolio, and contact information. The website is designed to showcase our creative work, tell our story, and provide a seamless experience for visitors.
   
-- Repository: [Link to the project repository]
+- Repository: [Not Active Yet 6/15/24]
 - Website: www.zapienmedia.com
 
 ### Project 2: The Metrics Explorer
